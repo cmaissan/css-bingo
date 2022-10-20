@@ -24,6 +24,7 @@ function Selector(props) {
 
   return (
     <div className="Selector">
+      <div className="Selector-Letter">Under the &ldquo;{props.letter}&rdquo;</div>
       <div className="Selector-Code" dangerouslySetInnerHTML={{ __html: formatted()}}></div>
       {props.note && <span>({props.note})</span>}
     </div>

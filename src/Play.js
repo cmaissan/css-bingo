@@ -11,7 +11,13 @@ function Play() {
 
   // Shuffle selectors
   useEffect(() => {
-    let list = data.B.concat(data.I).concat(data.N).concat(data.G).concat(data.O);
+    let list = [];
+    ['B', 'I', 'N', 'G', 'O'].forEach((letter) => {
+      data[letter].forEach((item) => {
+        item.letter = letter;
+        list.push(item);
+      });
+    });
     list = list.sort((a, b) => 0.5 - Math.random());
     setSelectors(list);
     setCurrentSelector(0);
@@ -37,6 +43,7 @@ function Play() {
       {!isFinished && <>
         {currentSelector > -1 &&
           <Selector
+            letter={selectors[currentSelector].letter}
             markup={selectors[currentSelector].markup}
             note={selectors[currentSelector].note}
           />

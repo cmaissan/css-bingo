@@ -4,6 +4,12 @@
   margin-bottom: 4rem;
 }
 
+.Selector-Letter {
+  font-size: 6rem;
+  font-weight: 900;
+  margin-bottom: 4rem;
+}
+
 .Selector-Code {
   background: #efefef;
   display: block;
