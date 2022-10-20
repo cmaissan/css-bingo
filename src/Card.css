@@ -1,8 +1,11 @@
 .Card {
-  break-inside: avoid;
+  page-break-after: always;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  margin: 2.5rem auto;
   max-width: 100rem;
+  height: 100%;
 }
 
 .Card-Header, .Card-Body {
@@ -22,7 +25,7 @@
   border: 2px solid #000;
   display: flex;
   flex-basis: 20%;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   align-items: center;
   justify-content: center;
   overflow: hidden;

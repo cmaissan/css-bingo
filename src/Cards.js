@@ -30,21 +30,28 @@ function Cards() {
       cards.push(card);
     }
     setCards([...cards]);
+  };
 
-    setTimeout(() => {
-      window.print();
-    }, 500);
+  // Print cards
+  const print = () => {
+    window.print();
   };
 
   return (
     <div className="Cards">
-      {cards.length === 0 && <>
-        <input value={numberOfCards} onChange={(e) => setNumberOfCards(e.target.value)}/>
-        <button onClick={generate}>Generate</button>
+
+      {cards.length === 0 && <div className="Cards-Form">
+        <input placeholder="Number of cards" value={numberOfCards} onChange={(e) => setNumberOfCards(e.target.value)}/>
+        <button className="Button" onClick={generate}>Generate</button>
+      </div>}
+
+      {cards.length > 0 && <>
+        <button className="Button" onClick={print}>Print</button>
+        {cards.map((card, index) => {
+          return <Card key={index} squares={card} />;
+        })}
       </>}
-      {cards.map((card, index) => {
-        return <Card key={index} squares={card} />;
-      })}
+
     </div>
   );
 }

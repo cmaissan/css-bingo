@@ -1,4 +1,37 @@
 .Cards {
+  text-align: center;
+}
+
+.Cards .Button {
+  margin: 4rem 0;
+}
+
+.Cards-Form {
   display: flex;
+  align-items: center;
   justify-content: center;
+  min-height: 100vh;
+}
+
+.Cards-Form .Button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.Cards-Form input {
+  border: 2px solid #ccc;
+  border-right: 0;
+  border-radius: 1rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  font-size: 2rem;
+  padding: 2rem;
+  width: 30rem;
+  height: 7rem;
+}
+
+@media print {
+  .Cards .Button {
+    display: none;
+  }
 }

@@ -75,12 +75,12 @@
       "selector": "h1 + p"
     },
     {
-      "markup": "==<input type=\"checkbox\">==\n<input type=\"text\">",
-      "selector": "input[type='checkbox']"
+      "markup": "==<input type=\"email\">==\n<input type=\"text\">",
+      "selector": "input[type='email']"
     },
     {
-      "markup": "<a href=\"home.html\">Home</a>\n==<a href=\"contact.html\">Contact</a>==",
-      "selector": "input[href='contact.html']"
+      "markup": "<a href=\"home\">Home</a>\n==<a href=\"contact\">Contact</a>==",
+      "selector": "input[href='contact']"
     },
     {
       "markup": "<div class=\"order\">>\n  ==<h2>New Sneakers</h2>==\n</div>",
