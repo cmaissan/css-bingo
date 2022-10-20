@@ -9,7 +9,7 @@
       "selector": "#main-title"
     },
     {
-      "markup": "==<p id=\"intro\">Once upon a time, there was a cat and a dog.</p>\n<p>They were best friends.</p>",
+      "markup": "==<p id=\"intro\">Once upon a time, there was a cat and a dog.</p>==\n<p>They were best friends.</p>",
       "selector": "#intro"
     },
     {

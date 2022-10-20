@@ -1,0 +1,9 @@
+.Selector {
+  background: #efefef;
+  display: block;
+  font-family: 'Courier Prime', monospace;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  padding: 5rem;
+  white-space: pre;
+}
