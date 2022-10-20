@@ -3,30 +3,119 @@
     {
       "markup": "<input id=\"email\" type=\"email\">\n==<input id=\"password\" type=\"password\">==",
       "selector": "#password"
+    },
+    {
+      "markup": "==<h1 id=\"main-title\">Contact Information</h1>==",
+      "selector": "#main-title"
+    },
+    {
+      "markup": "==<p id=\"intro\">Once upon a time, there was a cat and a dog.</p>\n<p>They were best friends.</p>",
+      "selector": "#intro"
+    },
+    {
+      "markup": "<h1>How To Disappear Completely</h1>\n==<h2>Step 1</h2>==",
+      "selector": "h2"
+    },
+    {
+      "markup": "<section>\n  ==<header>Data Analysis Results</header>==\n  <footer>Compiled January, 2022</footer>\n</section>",
+      "selector": "header"
+    },
+    {
+      "markup": "<ul>\n  ==<li id=\"favorite\">Catan</li>==\n  <li>Chess</li>\n  <li>Monopoloy</li>\n  <li>Scrabble</li>\n</ul>",
+      "selector": "#favorite"
     }
   ],
   "I": [
     {
       "markup": "<ul>\n  <li>Make breakfast</li>\n  ==<li class=\"priority\">Finish homework</li>==\n  ==<li class=\"priority\">Bike ride</li>==\n</ul>",
       "selector": ".priority"
+    },
+    {
+      "markup": "<ul>\n  ==<li class=\"favorite\">Catan</li>==\n  <li>Chess</li>\n  <li>Monopoloy</li>\n  <li>Scrabble</li>\n</ul>",
+      "selector": ".favorite"
+    },
+    {
+      "markup": "<p>You can afford it.</p>\n==<p class=\"fine-print\">36 equal payments</p>==",
+      "selector": ".fine-print"
+    },
+    {
+      "markup": "==<input name=\"email\" type=\"email\" class=\"required\">==\n==<input name=\"password\" type=\"password\" class=\"required\">==\n<input name=\"height\" type=\"text\">",
+      "selector": ".required"
+    },
+    {
+      "markup": "<p>Lorem Ipsum</p>\n==<p class=\"highlight\">Euismod Mollis</p>==\n<p>Etiam Sollicitudin</p>",
+      "selector": ".highlight"
     }
   ],
   "N": [
     {
       "markup": "<header>\n  ==<p>Hello</p>==\n</header>\n<footer>\n  <p>Goodbye</p>\n</footer>",
       "selector": "header p"
+    },
+    {
+      "markup": "<aside>\n  ==<h2>About Us</h2>==\n  <p>Commodo purus cursus fusce.</p>\n</aside>",
+      "selector": "aside h2"
+    },
+    {
+      "markup": "<article id=\"top-story\">\n  ==<h2>Breaking Headline</h2>==\n</article>",
+      "selector": "#top-story h2"
+    },
+    {
+      "markup": "<div class=\"bio\">\n  <h2>Chris</h2>\n  ==<p>Vivamus sagittis lacus vel augue.</p>==\n  ==<p>Laoreet rutrum faucibus dolor auctor.</p>==\n</div>",
+      "selector": ".bio p"
+    },
+    {
+      "markup": "<p>Ipsum cras etiam.</p>\n<div id=\"callout\">\n  ==<p>Duis mollis, est non commodo luctus.</p>==\n  ==<p>Nisi erat porttitor ligula.</p>==\n</div>",
+      "selector": "#callout p"
     }
   ],
   "G": [
     {
       "markup": "<h1>Our Company</h1>\n==<p>Who we are and what we do.</p>==\n<p>We were founding on these core principals.</p>",
       "selector": "h1 + p"
+    },
+    {
+      "markup": "==<input type=\"checkbox\">==\n<input type=\"text\">",
+      "selector": "input[type='checkbox']"
+    },
+    {
+      "markup": "<a href=\"home.html\">Home</a>\n==<a href=\"contact.html\">Contact</a>==",
+      "selector": "input[href='contact.html']"
+    },
+    {
+      "markup": "<div class=\"order\">>\n  ==<h2>New Sneakers</h2>==\n</div>",
+      "selector": ".order > h2"
+    },
+    {
+      "markup": "<p>A paragraph</p>\n==<p>Followed by another paragraph</p>==",
+      "selector": "p + p"
     }
   ],
   "O": [
     {
       "markup": "<ol>\n  ==<li>Mix dry ingredients</li>\n==  <li>Slowly add milk</li>\n  <li>Pour into heated pan</li>\n</ul>",
       "selector": "li:first-child"
+    },
+    {
+      "markup": "<ul>\n  <li>Red</li>\n  <li>Green</li>\n  <li>Blue</li>\n  <li>Yellow</li>\n  ==<li>Purple</li>==</ul>",
+      "selector": "li:last-child"
+    },
+    {
+      "markup": "==<a href=\"home.html\">Go Home</a>==",
+      "note": "But only on hover",
+      "selector": "a:hover"
+    },
+    {
+      "markup": "==<input name=\"Title\">==",
+      "note": "But only when focused",
+      "selector": "input:focus"
+    },
+    {
+      "markup": "<input name=\"option-1\" type=\"checkbox\" checked>\n<input name=\"option-2\" type=\"checkbox\">\n<input name=\"option-3\" type=\"checkbox\">",
+      "selector": "input:checked"
     }
-  ]
+  ],
+  "middle": {
+    "selector" : "*"
+  }
 }
