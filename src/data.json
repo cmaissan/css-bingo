@@ -26,7 +26,7 @@
   "O": [
     {
       "markup": "<ol>\n  ==<li>Mix dry ingredients</li>\n==  <li>Slowly add milk</li>\n  <li>Pour into heated pan</li>\n</ul>",
-      "selector" "li:first-child"
+      "selector": "li:first-child"
     }
   ]
 }
