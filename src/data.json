@@ -9,7 +9,7 @@
       "selector": "#main-title"
     },
     {
-      "markup": "==<p id=\"intro\">Once upon a time, there was a cat and a dog.</p>==\n<p>They were best friends.</p>",
+      "markup": "==<p id=\"intro\">Once upon a time</p>==\n<p>Happily ever after</p>",
       "selector": "#intro"
     },
     {
@@ -35,7 +35,7 @@
       "selector": ".favorite"
     },
     {
-      "markup": "<p>You can afford it.</p>\n==<p class=\"fine-print\">36 equal payments</p>==",
+      "markup": "<p>You can afford it!</p>\n==<p class=\"fine-print\">36 equal payments</p>==",
       "selector": ".fine-print"
     },
     {
@@ -83,7 +83,7 @@
       "selector": "input[href='contact']"
     },
     {
-      "markup": "<div class=\"order\">>\n  ==<h2>New Sneakers</h2>==\n</div>",
+      "markup": "<div class=\"order\">\n  ==<h2>New Sneakers</h2>==\n</div>",
       "selector": ".order > h2"
     },
     {
@@ -93,11 +93,11 @@
   ],
   "O": [
     {
-      "markup": "<ol>\n  ==<li>Mix dry ingredients</li>\n==  <li>Slowly add milk</li>\n  <li>Pour into heated pan</li>\n</ul>",
+      "markup": "<ol>\n  ==<li>Mix dry ingredients</li>==\n  <li>Slowly add milk</li>\n  <li>Pour into heated pan</li>\n</ul>",
       "selector": "li:first-child"
     },
     {
-      "markup": "<ul>\n  <li>Red</li>\n  <li>Green</li>\n  <li>Blue</li>\n  <li>Yellow</li>\n  ==<li>Purple</li>==</ul>",
+      "markup": "<ul>\n  <li>Red</li>\n  <li>Green</li>\n  <li>Blue</li>\n  <li>Yellow</li>\n  ==<li>Purple</li>==\n</ul>",
       "selector": "li:last-child"
     },
     {
@@ -111,7 +111,7 @@
       "selector": "input:focus"
     },
     {
-      "markup": "<input name=\"option-1\" type=\"checkbox\" checked>\n<input name=\"option-2\" type=\"checkbox\">\n<input name=\"option-3\" type=\"checkbox\">",
+      "markup": "==<input name=\"option-1\" type=\"checkbox\" checked>==\n<input name=\"option-2\" type=\"checkbox\">\n<input name=\"option-3\" type=\"checkbox\">",
       "selector": "input:checked"
     }
   ],

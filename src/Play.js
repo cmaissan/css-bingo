@@ -35,7 +35,12 @@ function Play() {
       </>}
 
       {!isFinished && <>
-        {currentSelector > -1 && <Selector markup={selectors[currentSelector].markup} />}
+        {currentSelector > -1 &&
+          <Selector
+            markup={selectors[currentSelector].markup}
+            note={selectors[currentSelector].note}
+          />
+        }
         <button className="Button" onClick={next}>Next</button>
       </>}
 
