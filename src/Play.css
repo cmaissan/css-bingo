@@ -3,6 +3,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow-y: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
 }
 
 .Play button {
@@ -10,6 +14,7 @@
   border: 4px solid #000;
   border-radius: 1rem;
   color: #000;
+  cursor: pointer;
   display: inline-block;
   font-size: 2rem;
   font-weight: 700;

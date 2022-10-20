@@ -19,7 +19,7 @@ function Cards() {
       for (let row = 0; row < 5; row = row + 1) {
         card.push(data.B[row]);
         card.push(data.I[row]);
-        if (row === 3) {
+        if (row === 2) {
           card.push(data.middle);
         } else {
           card.push(data.N[row]);
@@ -30,6 +30,10 @@ function Cards() {
       cards.push(card);
     }
     setCards([...cards]);
+
+    setTimeout(() => {
+      window.print();
+    }, 500);
   };
 
   return (
