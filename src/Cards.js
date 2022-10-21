@@ -20,7 +20,9 @@ function Cards() {
         card.push(data.B[row]);
         card.push(data.I[row]);
         if (row === 2) {
-          card.push(data.middle);
+          card.push({
+            'selector': '*'
+          });
         } else {
           card.push(data.N[row]);
         }

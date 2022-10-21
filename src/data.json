@@ -1,6 +1,48 @@
 {
   "B": [
     {
+      "markup": "==<h1>How To Disappear Completely</h1>==\n<h2>Step 1</h2>",
+      "selector": "h1"
+    },
+    {
+      "markup": "<section>\n  ==<header>Data Analysis Results</header>==\n  <footer>Compiled January, 2022</footer>\n</section>",
+      "selector": "header"
+    },
+    {
+      "markup": "==<label for=\"username\">==\n<input id=\"username\">",
+      "selector": "label"
+    },
+    {
+      "markup": "<h1>Main Section</h1>\n==<h2>Subsection A</h2>==\n<p>Sollicitudin fermentum nullam</p>\n==<h2>Subsection B</h2>==\n<p>Consectetur aenean inceptos fringilla.</p>",
+      "selector": "h2"
+    },
+    {
+      "markup": "<ul>\n  ==<li>Toronto</li>==\n  ==<li>Hamilton</li>==\n  ==<li>Oakville</li>==\n</ul>",
+      "selector": "li"
+    },
+    {
+      "markup": "<table>\n  <tr>\n    ==<th>Snack</th>==\n    ==<th>Percent</th>==\n  </tr>\n  <tr>\n    <td>Salty</td>\n    <td>54%</td>\n  </tr>\n</table>",
+      "selector": "th"
+    },
+    {
+      "markup": "<nav>\n  ==<a href=\"home\">Home</a>==\n  ==<a href=\"photos\">Photos</a>==\n  ==<a href=\"contact\">Contact</a>==\n</nav>",
+      "selector": "a"
+    },
+    {
+      "markup": "<p>\n  Cras mattis ==<strong>consectetur</strong>== purus sit.\n</p>",
+      "selector": "strong"
+    },
+    {
+      "markup": "<h1>Mattis Quam ==<em>Consectetur Parturient</em>==</h1>",
+      "selector": "em"
+    },
+    {
+      "markup": "<form>\n  <label for=\"first\">First Name</label>\n  ==<input id=\"first\">==\n  <label for=\"last\">Last Name</label>\n  ==<input id=\"last\">==\n</form>",
+      "selector": "input"
+    }
+  ],
+  "I": [
+    {
       "markup": "<input id=\"email\" type=\"email\">\n==<input id=\"password\" type=\"password\">==",
       "selector": "#password"
     },
@@ -13,19 +55,35 @@
       "selector": "#intro"
     },
     {
-      "markup": "<h1>How To Disappear Completely</h1>\n==<h2>Step 1</h2>==",
-      "selector": "h2"
-    },
-    {
-      "markup": "<section>\n  ==<header>Data Analysis Results</header>==\n  <footer>Compiled January, 2022</footer>\n</section>",
-      "selector": "header"
-    },
-    {
       "markup": "<ul>\n  ==<li id=\"favorite\">Catan</li>==\n  <li>Chess</li>\n  <li>Monopoloy</li>\n  <li>Scrabble</li>\n</ul>",
       "selector": "#favorite"
+    },
+    {
+      "markup": "<label for=\"username\">\n==<input id=\"username\">==",
+      "selector": "#username"
+    },
+    {
+      "markup": "==<div id=\"a\" class=\"box\">A</div>==\n<div id=\"b\" class=\"box\">B</div>\n<div id=\"c\" class=\"box\">C</div>",
+      "selector": "#a"
+    },
+    {
+      "markup": "<div id=\"a\" class=\"box\">A</div>\n==<div id=\"b\" class=\"box\">B</div>==\n<div id=\"c\" class=\"box\">C</div>",
+      "selector": "#b"
+    },
+    {
+      "markup": "<nav>\n  <a id=\"home-link\" href=\"home\">Home</a>\n  <a id=\"photos-link\" href=\"photos\">Photos</a>\n  ==<a id=\"contact-link\" href=\"contact\">Contact</a>==\n</nav>",
+      "selector": "#contact-link"
+    },
+    {
+      "markup": "<nav>\n  <a id=\"home-link\" href=\"home\">Home</a>\n  ==<a id=\"photos-link\" href=\"photos\">Photos</a>==\n  <a id=\"contact-link\" href=\"contact\">Contact</a>\n</nav>",
+      "selector": "#photos-link"
+    },
+    {
+      "markup": "<section id=\"intro\">\n  Nulla vitae elit libero, a pharetra augue.\n</section>\n==<section id=\"conclusion\">==\n  ==Curabitur blandit tempus porttitor.==\n==</section>==",
+      "selector": "#conclusion"
     }
   ],
-  "I": [
+  "N": [
     {
       "markup": "<ul>\n  <li>Make breakfast</li>\n  ==<li class=\"priority\">Finish homework</li>==\n  ==<li class=\"priority\">Bike ride</li>==\n</ul>",
       "selector": ".priority"
@@ -45,9 +103,29 @@
     {
       "markup": "<p>Lorem Ipsum</p>\n==<p class=\"highlight\">Euismod Mollis</p>==\n<p>Etiam Sollicitudin</p>",
       "selector": ".highlight"
+    },
+    {
+      "markup": "==<div id=\"a\" class=\"box\">A</div>==\n==<div id=\"b\" class=\"box\">B</div>==\n==<div id=\"c\" class=\"box\">C</div>==",
+      "selector": ".box"
+    },
+    {
+      "markup": "<p>\n  Cras mattis ==<span class=\"bold\">consectetur</span>== purus.\n</p>",
+      "selector": ".bold"
+    },
+    {
+      "markup": "==<h1 class=\"title\">Main Section</h1>==\n==<h2 class=\"title\">Subsection A</h2>==\n<p>Sollicitudin fermentum nullam</p>\n<h2>Subsection B</h2>\n<p>Consectetur aenean inceptos fringilla.</p>",
+      "selector": ".title"
+    },
+    {
+      "markup": "<h1>Main Menu</h1>\n==<a class=\"button\" href=\"home\">Home</a>==\n==<a class=\"button\" href=\"send\">Send Messag</a>==\n==<button class=\"button\">Logout</button>==",
+      "selector": ".button"
+    },
+    {
+      "markup": "==<p class=\"mb-2\">In a galaxy far, far away.</p>==\n==<p class=\"mb-2\">It is a period of civil war.</p>==\n<p>The Empire has a secret weapon.</p>",
+      "selector": ".mb-2"
     }
   ],
-  "N": [
+  "G": [
     {
       "markup": "<header>\n  ==<p>Hello</p>==\n</header>\n<footer>\n  <p>Goodbye</p>\n</footer>",
       "selector": "header p"
@@ -67,9 +145,29 @@
     {
       "markup": "<p>Ipsum cras etiam.</p>\n<div id=\"callout\">\n  ==<p>Duis mollis, est non commodo luctus.</p>==\n  ==<p>Nisi erat porttitor ligula.</p>==\n</div>",
       "selector": "#callout p"
+    },
+    {
+      "markup": "<form>\n  <label for=\"email\">Email</label>\n  <input id=\"email\"\n  ==<button>Reset Password</button>==\n</form>\n<button>Logout</button>",
+      "selector": "form button"
+    },
+    {
+      "markup": "<p id=\"intro\">\n  Cras mattis ==<strong>consectetur</strong>== purus sit.\n</p>\n<p>Mattis Quam <strong>Consectetur Parturient</strong></p>",
+      "selector": "#intro strong"
+    },
+    {
+      "markup": "<header>\n  ==<img id=\"logo\" src=\"logo.png\">==\n</header>\n<img id=\"banner\" src=\"banner.jpg\">",
+      "selector": "header img"
+    },
+    {
+      "markup": "<section id=\"intro\">\n  Nulla vitae <em>elit libero</em>, a pharetra augue.\n</section>\n<section id=\"conclusion\">\n  Curabitur ==<em>blandit</em>== tempus porttitor.\n</section>",
+      "selector": "#conclusion em"
+    },
+    {
+      "markup": "<section id=\"intro\">\n  Nulla vitae ==<em>elit libero</em>==, a pharetra augue.\n</section>\n<section id=\"conclusion\">\n  Curabitur <em>blandit</em> tempus porttitor.\n</section>",
+      "selector": "#intro em"
     }
   ],
-  "G": [
+  "O": [
     {
       "markup": "<h1>Our Company</h1>\n==<p>Who we are and what we do.</p>==\n<p>We were founding on these core principals.</p>",
       "selector": "h1 + p"
@@ -89,9 +187,7 @@
     {
       "markup": "<p>A paragraph</p>\n==<p>Followed by another paragraph</p>==",
       "selector": "p + p"
-    }
-  ],
-  "O": [
+    },
     {
       "markup": "<ol>\n  ==<li>Mix dry ingredients</li>==\n  <li>Slowly add milk</li>\n  <li>Pour into heated pan</li>\n</ul>",
       "selector": "li:first-child"
@@ -114,8 +210,5 @@
       "markup": "==<input name=\"option-1\" type=\"checkbox\" checked>==\n<input name=\"option-2\" type=\"checkbox\">\n<input name=\"option-3\" type=\"checkbox\">",
       "selector": "input:checked"
     }
-  ],
-  "middle": {
-    "selector" : "*"
-  }
+  ]
 }
