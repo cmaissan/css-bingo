@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/css-bingo/static/css/main.bca9f1b3.css",
+    "main.js": "/css-bingo/static/js/main.51009f47.js",
+    "index.html": "/css-bingo/index.html",
+    "main.bca9f1b3.css.map": "/css-bingo/static/css/main.bca9f1b3.css.map",
+    "main.51009f47.js.map": "/css-bingo/static/js/main.51009f47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bca9f1b3.css",
+    "static/js/main.51009f47.js"
+  ]
+}
