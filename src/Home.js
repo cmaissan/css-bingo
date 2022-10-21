@@ -5,8 +5,8 @@ function Home() {
   return (
     <div className="Home">
       <div className="Home-Menu">
-        <Link className="Button" to="/play">Start Game</Link>
-        <Link className="Button" to="/cards">Generate Cards</Link>
+        <Link className="Button" to="./play">Start Game</Link>
+        <Link className="Button" to="./cards">Generate Cards</Link>
       </div>
     </div>
   );
