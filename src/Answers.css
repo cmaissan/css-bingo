@@ -1,0 +1,32 @@
+.Answers {
+  text-align: center;
+  margin: 5rem 0;
+}
+
+.Answers table {
+  border-collapse: collapse;
+}
+
+.Answers th,
+.Answers td {
+  font-size: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.Answers th {
+  border-bottom: 1px solid #000;
+}
+
+.Answers td {
+  line-height: 1.4;
+}
+
+.Answers th:nth-child(3),
+.Answers td:nth-child(3) {
+  text-align: left;
+}
+
+.Answers .Button {
+  margin-top: 5rem;
+}

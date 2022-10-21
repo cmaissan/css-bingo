@@ -1,6 +1,7 @@
 import './Play.css';
 import data from './data.json';
 import { useEffect, useState } from 'react';
+import Answers from './Answers';
 import Selector from './Selector';
 
 function Play() {
@@ -8,6 +9,7 @@ function Play() {
   const [ selectors, setSelectors ] = useState([]);
   const [ currentSelector, setCurrentSelector ] = useState(-1);
   const [ isFinished, setIsFinished ] = useState(false);
+  const [ checkCard, setCheckCard ] = useState(false);
 
   // Shuffle selectors
   useEffect(() => {
@@ -36,11 +38,16 @@ function Play() {
   return (
     <div className="Play">
 
-      {isFinished && <>
-        <div className="Play-Finished"></div>
+      {(isFinished || checkCard) && <>
+        <div className="Play-Check">
+          <Answers
+            selectors={selectors.filter((selector, index) => index <= currentSelector)}
+            onClose={() => { setCheckCard(false) }}
+          />
+        </div>
       </>}
 
-      {!isFinished && <>
+      {!(isFinished || checkCard) && <>
         {currentSelector > -1 &&
           <Selector
             letter={selectors[currentSelector].letter}
@@ -48,7 +55,10 @@ function Play() {
             note={selectors[currentSelector].note}
           />
         }
-        <button className="Button" onClick={next}>Next</button>
+        <div className="Play-Buttons">
+          <button className="Button" onClick={next}>Next</button>
+          <button className="Button" onClick={() => { setCheckCard(true); }}>Check</button>
+        </div>
       </>}
 
     </div>
