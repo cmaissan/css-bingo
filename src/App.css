@@ -15,3 +15,9 @@
 .Button:hover {
   background: rgba(0, 0, 0, 0.1);
 }
+
+.Button[disabled] {
+  cursor: default;
+  opacity: 0.2;
+  pointer-events: none;
+}

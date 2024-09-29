@@ -9,9 +9,32 @@
 
 .Play-Buttons {
   display: flex;
+  align-items: center;
 }
 
 .Play-Buttons .Button {
   margin: 0 1rem;
   width: 16rem;
+}
+
+.Play-Form {
+  display: flex;
+  align-items: center;
+}
+
+.Play-Form label {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.Play-Time-Per-Call {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5rem;
+}
+
+.Play-Timer {
+  font-size: 5rem;
+  font-weight: bold;
+  width: 10rem;
 }

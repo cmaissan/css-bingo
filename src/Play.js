@@ -26,6 +26,7 @@ function Play() {
     list = list.sort((a, b) => 0.5 - Math.random());
     setSelectors(list);
     setCurrentSelector(0);
+    setTimer(timePerCall);
   };
 
   // Show next selector
@@ -60,8 +61,10 @@ function Play() {
     <div className="Play">
 
       {currentSelector < 0 && <div className="Play-Form">
-        <div className="Play-Time-Per-Call">{timePerCall} <span>seconds per call</span></div>
-        <input value={timePerCall} onChange={(e) => setTimePerCall(e.target.value)} type="range" min="10" max="65" step="5" />
+        <div className="Play-Time-Per-Call">
+          <label>{timePerCall} <span>seconds per call</span></label>
+          <input value={timePerCall} onChange={(e) => setTimePerCall(e.target.value)} type="range" min="10" max="65" step="5" />
+        </div>
         <button className="Button" onClick={start}>Go</button>
       </div>}
 
