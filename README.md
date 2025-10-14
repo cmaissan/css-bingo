@@ -2,7 +2,7 @@
 
 In CSS Bingo, snippets of HTML code are shown with a portion of code highlighted. Participants look at their card for a CSS selector that would match the highlighted portion of the HTML.
 
-CSS Bingo can be accessed at https://cmaissan.github.io/css-bingo/(https://cmaissan.github.io/css-bingo/)
+CSS Bingo can be accessed at https://cmaissan.github.io/css-bingo/
 
 ## Generate Cards
 
