@@ -1,6 +1,6 @@
 import './Play.css';
 import data from './data.json';
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Answers from './Answers';
 import Selector from './Selector';
 

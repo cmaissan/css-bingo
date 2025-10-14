@@ -1,6 +1,6 @@
 import './Cards.css';
 import data from './data.json';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Card from './Card';
 
 function Cards() {

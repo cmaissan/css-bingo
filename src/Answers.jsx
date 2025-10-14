@@ -1,4 +1,5 @@
 import './Answers.css';
+import React from 'react';
 import Answer from './Answer';
 
 function Answers(props) {

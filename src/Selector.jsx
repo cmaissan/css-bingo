@@ -1,4 +1,5 @@
 import './Selector.css';
+import React from 'react';
 
 function Selector(props) {
 
